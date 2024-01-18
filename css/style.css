@@ -959,3 +959,19 @@ footer{
 footer a{
     color: #fff;
 }
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1150px;
+}
+
+.footer-container .about h2{
+    font-size: 3em;
+    font-weight: 600;
+    background: linear-gradient(to top, transparent 0%, #fff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .8;
+}
