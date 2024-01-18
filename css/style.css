@@ -975,3 +975,24 @@ footer a{
     -webkit-text-fill-color: transparent;
     opacity: .8;
 }
+
+.footer-container .about p {
+    font-size: var(--normal-fonr-size);
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.footer-container .info,
+.footer-container .follow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container .info,
+.footer-container .follow{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
