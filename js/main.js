@@ -1,4 +1,5 @@
 // Navigation bar eddects on scroll
+
 window.addEventListener("scroll", function(){
     const header=this.document.querySelector("header");
     header.classList.toggle("sticky" , window.scrollY>0)
@@ -30,6 +31,7 @@ modalCloseBtns.forEach((modalCloseBtn)=>{
 }) ;
 
 // portfolio Section 
+
 const portfolioModals= document.querySelectorAll(".portfolio-model");
 const imgCards= document.querySelectorAll(".img-card");
 const portfolioCloseBtns= document.querySelectorAll(".portfolio-close-btn");
@@ -55,7 +57,6 @@ portfolioCloseBtns.forEach((portfolioCloseBtn)=>{
 
 
 // our clinets - Swiper
-
 var swiper = new Swiper(".client-swiper", {
     slidesPreView: 1,
     spaceBetween: 30,
