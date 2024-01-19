@@ -71,6 +71,27 @@ var swiper = new Swiper(".client-swiper", {
     },
 });
 
+// Light/Dark theme button 
+const themeBtn= document.querySelector(".theme-btn");
+
+themeBtn.addEventListener("click", () =>{
+    document.body.classList.toggle("dark-theme");
+    themeBtn.classList.toggle("sun");
+
+    localStorage.setItem("saved-theme". getCurremtTheme());
+    localStorage.setItem("saved-icon". getCurremtIcon());
+})
+
+const getCurremtTheme = () => document.body.classList.contains("dark-theme") ? "dark" :"light";
+const getCurremtIcon =() => themeBtn.classList.contains("sun") ? "sun" : "moon";
+
+const saveTheme= localStorage.getItem("Save-theme");
+const saveIcon= localStorage.getItem("Save-icon");
+
+if(saveTheme){
+    document.body.classList[saveTheme === "dark" ? "add" : "remove"]("dark-theme");
+    themeBtn.classList[saveIcon === "sun" ? "add" : "remove"]("sun");
+}
 
 //Scroll to top button
 
