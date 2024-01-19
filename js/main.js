@@ -70,3 +70,12 @@ var swiper = new Swiper(".client-swiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+
+//Scroll to top button
+
+const scrollTopBtn = document.querySelector(".scrollToTop-btn");
+
+window.addEventListener("scroll", function(){
+ scrollTopBtn.classList.toggle("active", window.scrollY > 500);
+});
