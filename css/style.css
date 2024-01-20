@@ -1110,6 +1110,20 @@ footer a{
     align-items: center;
     background: var(--tramsparent-color-01);
     }
+
+.nav-items{
+    position: relative;
+    background: var(--modal-bg-color);
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+}
 .nav-menu-btn{
     background: url(../images/mobile-menu.png)no-repeat;
     filter: var(--color-filter);
