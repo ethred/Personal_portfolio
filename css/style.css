@@ -1109,7 +1109,15 @@ footer a{
     justify-content: center;
     align-items: center;
     background: var(--tramsparent-color-01);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease;
     }
+ 
+.navigation.active{
+    visibility: visible;
+    opacity: 1;
+}
 
 .nav-items{
     position: relative;
