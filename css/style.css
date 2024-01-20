@@ -113,8 +113,10 @@ li{
     cursor: pointer;
 } 
 
-.theme-btn .fa-sun{
-    display: none;
+
+
+.theme-btn.sun .fa-sun{
+  display: block;
 }
 
 /* scroll bar  */
