@@ -194,6 +194,10 @@ header.sticky .nav-bar {
     color: var(--second-color);
 }
 
+.nav-menu-btn{
+    display: none;
+}
+
 /* home section */
 
 .home{
@@ -1092,10 +1096,11 @@ footer a{
 
 /* Media query max-width 1070px */
 
-@media screen and (max-width: 1070px) {
-
+@media screen and ( max-width : 1070px){
+ 
     /* Header Navigation Menu */
-.navigation   {
+
+.navigation{
     position: fixed;
     width: 100%;
     top: 0;
@@ -1105,5 +1110,16 @@ footer a{
     align-items: center;
     background: var(--tramsparent-color-01);
     }
+.nav-menu-btn{
+    background: url(../images/mobile-menu.png)no-repeat;
+    filter: var(--color-filter);
+    background-size: 30px;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    
+}
     
 }
