@@ -136,6 +136,7 @@ menuBtn.addEventListener("click", () => {
     navigation.classList.add("active");
 });
 
-menuBtn.addEventListener("click", () =>{
+closeBtn.addEventListener("click", () =>{
     navigation.classList.remove("active");
+    console.log("i am redwan");
 });
