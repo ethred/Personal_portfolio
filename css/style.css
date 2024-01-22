@@ -1168,5 +1168,12 @@ footer a{
     display: block;
     
 }
-    
+
+/* home section  */
+.home .home-container .info{
+    font-size: 0.85rem;
+}
+
+/* about section  */
+
 }
