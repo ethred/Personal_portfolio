@@ -1220,4 +1220,15 @@ footer a{
    line-height: 50px;
 }
 
+/* Our clients  */
+
+.client-swiper .swiper-slide{
+    flex-direction: column;
+}
+
+.client-details{
+    text-align: center;
+}
+
+
 }
