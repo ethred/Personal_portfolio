@@ -1268,4 +1268,15 @@ footer .footer-container{
     flex-direction: column;
 }
 
+.footer-container .info ul li{
+    margin: 5px 0;
+}
+
+.footer-container .hr{
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 10px 0 22px;
+}
+
 }
