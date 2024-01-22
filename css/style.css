@@ -1237,5 +1237,18 @@ footer a{
     font-size: 0.9rem;
 }
 
+.contact .contact-left{
+    margin-bottom: 40px;
+}
+
+.contact-form .second-row {
+    flex-direction: column;
+}
+
+.contact-form .second-row input{
+    width: 100%;
+}
+
+
 
 }
