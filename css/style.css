@@ -1257,6 +1257,15 @@ footer .footer-container{
 
 .footer-container .about, .footer-container .info{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.footer-container .info ul{
+    align-items: center;
+    flex-direction: column;
 }
 
 }
