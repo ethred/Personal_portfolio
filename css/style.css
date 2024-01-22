@@ -1251,6 +1251,12 @@ footer a{
 
 
 /* footer  */
+footer .footer-container{
+    flex-direction: column;
+}
 
+.footer-container .about, .footer-container .info{
+    display: flex;
+}
 
 }
