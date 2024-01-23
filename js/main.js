@@ -146,3 +146,17 @@ navItems.forEach((navItem) => {
         navigation.classList.remove("active");
     })
 })
+
+
+// Scroll Reveal Animations 
+
+ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 100
+});
+
+//Taget elements and specify options 
+
+ScrollReveal().reveal('.home .info h2', {delay: 500, origin :'left'});
