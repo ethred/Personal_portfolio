@@ -160,3 +160,4 @@ ScrollReveal({
 //Taget elements and specify options 
 
 ScrollReveal().reveal('.home .info h2', {delay: 500, origin :'left'});
+ScrollReveal().reveal('.home .info h3, .home .info p', {delay: 600, origin :'right'});
