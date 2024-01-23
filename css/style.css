@@ -1311,4 +1311,20 @@ footer .footer-container{
     transform: translate(80px, -180px);
  }
 
+
+ .home .home-container .info {
+    font-size: 0.8rem;
+ }
+
+ .media-icons{
+    margin-bottom: 80px;
+ }
+
+ /* get in touch  */
+.get-in-touch .contact-card{
+    display: grid;
+}
+
+
+
 }
