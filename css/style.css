@@ -1325,6 +1325,9 @@ footer .footer-container{
     display: grid;
 }
 
-
+.contact-card .title{
+    font-size: 0.6rem;
+    line-height: 40px;
+}
 
 }
