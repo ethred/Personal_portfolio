@@ -777,7 +777,7 @@ opacity: 1;
 .portfolio-list .img-card img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .portfolio-model {
@@ -831,6 +831,18 @@ opacity: 1;
     width: 100%;
     margin: 20px 0;
     border-radius: 10px;
+}
+
+.btn-container{
+   display: flex;
+   gap: 20px;
+   padding: 30px;
+}
+
+.btn-container .btn{
+    cursor: pointer;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 /* Get In Touch  */
