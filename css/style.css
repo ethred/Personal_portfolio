@@ -1091,7 +1091,7 @@ footer a{
 .nav-items{
     position: relative;
     background: var(--modal-bg-color);
-    width: 600px;
+    width: 300px;
     max-width: 600px;
     display: flex;
     align-items: center;
