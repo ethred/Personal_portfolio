@@ -1248,6 +1248,9 @@ footer .footer-container{
  body {
     margin: 5rem 0 0 0;
  }
+ p{
+    font-size: 0.8rem;
+ }
 
  .section-title-01{
     font-size: 3em;
@@ -1292,6 +1295,16 @@ footer .footer-container{
 }
 .contact-card .contact-btn .btn{
     font-size: 0.8rem;
+}
+
+.img-card-container .portfolio-model .btn{
+    font-size: 0.5rem;
+    padding: 15px 20px;
+    margin-top: 15px;
+}
+
+.portfolio-model-body h3 {
+    font-size: 1em;
 }
 
 }
