@@ -1307,4 +1307,16 @@ footer .footer-container{
     font-size: 1em;
 }
 
+/* .home-img img {
+    width: 40%;
+    transform: translate(80px, -180px);
+    border-radius: 30%;
+} */
+
+.home-container .home-img img {
+    width: 50%;
+    transform: translate(80px, -220px);
+    border-radius: 30%;
+}
+
 }
